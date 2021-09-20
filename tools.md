@@ -42,7 +42,6 @@ pentest:
 ```
 gobuster
 exploitdb
-metasploit-framework
 sqlmap
 dnsenum
 dnsrecon
@@ -80,7 +79,7 @@ steghide
 windows-binaries
 
 
-sudo apt-get install gobuster exploitdb metasploit-framework sqlmap dnsenum dnsrecon dnsmap enum4linux nikto nmap smbmap smtp-user-enum wireshark httptunnel nishang powersploit cewl crowbar hash-identifier hashcat hydra john rainbowcrack seclists wordlists cherrytree responder apache-users davtest dirb dirbuster recon-ng websploit wfuzz binwalk steghide windows-binaries
+sudo apt-get install gobuster exploitdb sqlmap dnsenum dnsrecon dnsmap enum4linux nikto nmap smbmap smtp-user-enum wireshark httptunnel nishang powersploit cewl crowbar hash-identifier hashcat hydra john rainbowcrack seclists wordlists cherrytree responder apache-users davtest dirb dirbuster recon-ng websploit wfuzz binwalk steghide windows-binaries
 ```
 
 not from apt:
@@ -91,7 +90,7 @@ crackmapexec - github
 volatility - github
 zapproxy - webpage
 zsteg - github
-burpsuite - website - done
+burpsuite - website - add certificate
 ```
 
 weird dependencies (resolve later):
@@ -99,3 +98,5 @@ weird dependencies (resolve later):
 the harvester
 wpscan
 winexe
+
+metasploit - some wierd shit with ruby
