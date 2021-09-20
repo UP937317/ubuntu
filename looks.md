@@ -51,3 +51,5 @@ sudo apt get install plank
 ```
 
 ## Disable acitivities hot corner in Gnome tweaks - Top Bar
+
+## but background on login screen
