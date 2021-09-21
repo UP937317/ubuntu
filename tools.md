@@ -8,6 +8,7 @@ sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free cont
 
 ```
 wget 'https://archive.kali.org/archive-key.asc'
+
 sudo apt-key add archive-key.asc
 ```
 
